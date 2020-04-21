@@ -1,0 +1,15 @@
+Kanamutti
+* There are 6 levels in the game.
+* You should find winning pot from the displaying pots.
+* In each level you have 3 chances.
+* - If you found winning pot in your first chance you got 30 marks
+  - If you found winning pot in your second chance you got 20 marks
+  - If you found winning pot in your third chance you got 10 marks
+* When level upping number of displaying pots are incease.
+
+Lissana Gaha
+* The tree height is 33ft
+* There are two buttons (Left & Right)
+* When grease drops are comes down, you should survive form them by moving left and right using buttons.
+* When you go up, grease droping speed is incease.
+* When you go 1ft up, you got 1 Mark.

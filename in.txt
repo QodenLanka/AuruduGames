@@ -1,0 +1,29 @@
+<audio id="theam" autoplay src="theam.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+<script>
+var loopLimit = 2;
+var loopCounter = 0;
+document.getElementById('Koha').addEventListener('ended', function(){
+    if (loopCounter < loopLimit){
+        this.currentTime = 0;
+        this.play();
+        loopCounter++;
+    }
+}, false);
+</script>
+
+<div class="container">
+<div class="pot">
+<a href="Pot" class="pot"> <img src="pot.png" > </a>
+</div>
+
+<div class="climb">
+<a href="Climb" > <img src="climb.png" > </a>
+</div>
+
+<div class="run">
+<a href="Run" > <img src="run.png" > </a>
+</div>
+
+</div>

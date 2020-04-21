@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url("bg.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center center; 
+	background-size: cover;
+	background-color: #464646;
+    font-family: sans-serif;
+	bottom:10;
+}
+
+.container{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width:100%;
+  float: left;
+  padding: 0 20px;
+}
+
+.climb{
+  position: absolute;
+  left: 15%;
+  width:120px;
+  text-align:center;
+}
+
+.climb img{
+  width:120px;
+
+}
+
+.pot{
+  position: absolute;
+  margin-top: 50px;
+  left: 40%;
+  width:100px;
+  text-align:center;
+}
+
+.pot img{
+  width:200px;
+
+}
+
+.run{
+  position: absolute;
+  margin-top: 180px;
+  left: 80%;
+  width:100px;
+  text-align:center;
+}
+
+.run img{
+  width:120px;
+
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .container {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .container{
+    width: 100%;
+  }
+}
